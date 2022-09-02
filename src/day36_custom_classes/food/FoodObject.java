@@ -7,8 +7,8 @@ public class FoodObject {
 
         Food[] allFood = new Food[5];
         System.out.println(Arrays.toString(allFood));
-        Food apples = new Food("apples");
-        allFood[0] = apples;
+        Food obj1 = new Food("apples");
+        allFood[0] = obj1;
 
         allFood[1] = new Food("sushi", 10);
         allFood[2] = new Food("cajun pasta", 2,3.99);
