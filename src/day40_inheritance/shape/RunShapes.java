@@ -5,5 +5,9 @@ public class RunShapes {
 
         Circle circle = new Circle(3.4);
         System.out.println(circle);
+        System.out.println();
+
+        Square square = new Square(5.5);
+        System.out.println(square);
     }
 }
