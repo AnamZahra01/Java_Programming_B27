@@ -4,14 +4,15 @@ public class MultipleCatch {
     public static void main(String[] args) {
 
         try {
-            System.out.println(1/0); //if 1/5 -> does not give error -> program will not complete because of line 8,9
+            System.out.println(1/5); //if 1/5 -> does not give error -> program will not complete because of line 8,9
             String s = null;
             s.trim();
         } catch (ArithmeticException e){
             System.out.println(e.getMessage());
+            System.out.println("Arithmetic catch block");
         } catch (NullPointerException e){
 
-            System.out.println("second catch block");
+            System.out.println("nullPointer catch block");
             e.printStackTrace();
         }
         System.out.println("End");

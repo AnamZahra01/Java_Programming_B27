@@ -16,6 +16,9 @@ public class FinallyExample {
             System.out.print("Enter number 2: ");
             int num2 = input.nextInt();
 
+           // String s = null;
+          //  s.trim();
+
             System.out.println(num1 + num2);
 
         } catch(InputMismatchException e){
