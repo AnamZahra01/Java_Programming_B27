@@ -1,7 +1,7 @@
 package day38_encapsulation.pizzaPQ3;
 
 //create a class called Pizza  -  encapsulate the Pizza class
-public class Pizza {
+public class  Pizza {
 
 // - data: size (String), number of toppings
     private String size;

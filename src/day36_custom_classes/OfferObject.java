@@ -32,7 +32,6 @@ public class OfferObject {
         onlyFullTime.removeIf(p -> !p.isFullTime);
         System.out.println(onlyFullTime);
 
-
         System.out.println();
         //remove offers less than 120,000
         ArrayList<Offer> minSalary = new ArrayList<>(allOffers);

@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class SwapElements {
 
+
     public static ArrayList<String> swap(ArrayList<String> list,int pos1,int pos2) {
 
         ArrayList<String> output = new ArrayList<>();

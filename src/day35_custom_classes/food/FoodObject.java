@@ -18,5 +18,7 @@ public class FoodObject {
 
         Food food2 = new Food("rice", 2, 12);
         System.out.println(food2);
+        food2.quantity = 5;
+        System.out.println(food2.calculatePrice());
     }
 }

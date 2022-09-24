@@ -15,3 +15,4 @@ public class VariablePractice {
         System.out.println("l = " + l);
     }
 }
+

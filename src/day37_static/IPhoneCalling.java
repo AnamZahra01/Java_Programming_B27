@@ -12,5 +12,9 @@ public class IPhoneCalling {
         System.out.println();
         IPhone iPhone2 = new IPhone("IPhone 7", "Silver", 1000, 256);
         System.out.println(iPhone2);
+        System.out.println(iPhone2.brand = "Nokia");
+        System.out.println("iPhone2 = " + iPhone2);
+        System.out.println("iPhone1 = " + iPhone1.brand);
+        System.out.println("iPhone1 = " + iPhone1);
     }
 }

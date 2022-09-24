@@ -11,7 +11,7 @@ public class SeparatePartsPQ3 {
     str = "ABCD123$%#@&456EFG!"
     list1: {$, %, #, @, &, !}
     list2: {A, B, C, D, E, F, G}
-    list3: {1, 2, 3, 4, 5, 6}
+    list4: {1, 2, 3, 4, 5, 6}
 
     */
    public static void main(String[] args) {

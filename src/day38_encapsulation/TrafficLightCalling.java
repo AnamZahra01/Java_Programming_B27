@@ -11,6 +11,9 @@ public class TrafficLightCalling {
 
         road1.setColor("green");
         System.out.println(road1.getColor());
+
+        road1.setColor("orange");
+        System.out.println(road1.getColor());
     }
 
 }
