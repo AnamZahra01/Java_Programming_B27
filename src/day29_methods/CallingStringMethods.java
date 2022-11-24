@@ -13,5 +13,6 @@ public class CallingStringMethods {
         System.out.println(StringUtil.fixFormat("jAmEs"));
 
         System.out.println(StringUtil.camelCase("JAVA will ruLE tHe wORLd"));
+        System.out.println("StringUtil.getDuplicateCharacters(\"apple\") = " + StringUtil.getDuplicateCharacters("apple"));
     }
 }
