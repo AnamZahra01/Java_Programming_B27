@@ -20,7 +20,7 @@ public class Store {
             System.out.println(item + " is in Stock");
             System.out.println("Price is $"  +store.get(item)); //get value based on key
         } else {
-            System.out.println(item + " is not in stck");
+            System.out.println(item + " is not in stock");
         }
 
     }

@@ -16,9 +16,9 @@ public class ListObjects {
          list1.add('c');
          list1.add('d');
          list1.add('e');
-        System.out.println("list1 = " + list1);
+        System.out.println("list1 = " + list1); //list1 = [a, b, null, c, c, d, e]
 
-         List<Character> list2 = new LinkedList<>();
+        List<Character> list2 = new LinkedList<>();
         list2.add('a');
         list2.add('b');
         list2.add(null);
@@ -26,7 +26,7 @@ public class ListObjects {
         list2.add('c');
         list2.add('d');
         list2.add('e');
-        System.out.println("list2 = " + list2);
+        System.out.println("list2 = " + list2); //list2 = [a, b, null, c, c, d, e]
 
         List<Character> list3= new Vector<>();
         list3.add('a');
@@ -36,8 +36,7 @@ public class ListObjects {
         list3.add('c');
         list3.add('d');
         list3.add('e');
-        System.out.println("list3 = " + list3);
-
+        System.out.println("list3 = " + list3); //list3 = [a, b, null, c, c, d, e]
 
     }
 }

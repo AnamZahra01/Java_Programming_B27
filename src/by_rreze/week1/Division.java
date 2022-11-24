@@ -1,4 +1,4 @@
-package by_rreze;
+package by_rreze.week1;
 //2.Numbers -- Divide without / operator (Write a method that can divide two numbers without using division operator.)
 public class Division {
     public static void divisible(int a, int b){
