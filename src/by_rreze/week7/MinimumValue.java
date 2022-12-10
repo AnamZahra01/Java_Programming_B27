@@ -9,6 +9,17 @@ Write a method that can return the minimum value from ta map (DO NOT use sort me
  */
 public class MinimumValue {
 
+    public static int minValue(Map<Integer,Integer> map){
+
+        int minValue = Integer.MAX_VALUE;
+
+        for(Integer eachValue : map.values()){
+            if(eachValue < minValue){
+                minValue = eachValue;
+            }
+        }
+       return minValue;
+    }
     public static void main(String[] args) {
 
     Map<Integer,Integer> map = new LinkedHashMap<>();
@@ -17,16 +28,8 @@ public class MinimumValue {
     map.put(3,8);
     map.put(4,6);
     map.put(5,4);
-        System.out.println("map = " + map);
 
-        int minValue = Integer.MAX_VALUE;
-
-        for(Integer eachValue : map.values()){
-            if(eachValue < minValue){
-                minValue = eachValue;
-        }
-    }
-        System.out.println("minValue = " + minValue);
+        System.out.println("minValue = " + minValue(map));
 
     }
 }
