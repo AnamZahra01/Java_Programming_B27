@@ -1,0 +1,8 @@
+1.Map -- Sort the map by values
+Write a method that can sort the Map by values
+2.Map -- Frequency of Characters
+Write a method that prints the frequency of each character from a String
+3. Map -- Unique character from String
+Write a method that will return the unique characters from a string
+4. Map -- Min value
+Write a method that can return the minimum value from ta map (DO NOT use sort method)
