@@ -1,7 +1,5 @@
 package day34_custom_classes.app;
 
-import day34_custom_classes.app.App;
-
 public class AppStore {
     public static void main(String[] args) {
 
@@ -10,6 +8,8 @@ public class AppStore {
         instagram.version = 12.1;
         instagram.isFree = true;
         instagram.ratings = 4;
+
+
 
         instagram.update(); //calling by obj/ref
 

@@ -8,7 +8,7 @@ public class Carpet {
     boolean isPersian;
     double totalPrice;
 
-    public  Carpet(double widthIn, double lengthIn, double unitPriceIn, boolean isPersianIn ){
+    public Carpet(double widthIn, double lengthIn, double unitPriceIn, boolean isPersianIn ){
         width = widthIn;
         length = lengthIn;
         unitPrice = unitPriceIn;

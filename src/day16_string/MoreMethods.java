@@ -18,7 +18,7 @@ public class MoreMethods {
         //replace
         String str = "java";
         str = str.replace('a','z');
-        System.out.println(str);
+        System.out.println(str); //jzaz
 
         String str1 = "a apple path";
         str1 = str1.replace("a","(a)");

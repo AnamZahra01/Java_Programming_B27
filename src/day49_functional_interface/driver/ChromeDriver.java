@@ -11,4 +11,9 @@ public class ChromeDriver implements WebDriver{
         System.out.println("Finding elements in Chrome");
 
     }
+
+    public void maximize() {
+        System.out.println("Chrome is maximizing");
+
+    }
 }

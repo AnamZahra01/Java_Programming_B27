@@ -12,6 +12,8 @@ public class Store {
         Map.of("Water", 2.99, "Bread", 4.55, "Milk", 2.89, "Fruits", 3.81)
         );
         System.out.println(store);
+        System.out.println(store.get("Water"));
+        //System.out.println(store.get(2.99)); //null
 
 
         System.out.println("What item are you looking for?");

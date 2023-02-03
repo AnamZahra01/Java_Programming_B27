@@ -9,6 +9,7 @@ public interface Mac {
     //methods: in interface you can define abstract (by default), static, default
 
     void turnOn(); //public abstract void turnOn();
+    //void turnOff();
 
     //to have methods with body/implementation -> method should be static
     public static void getBrand(){

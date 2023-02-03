@@ -20,7 +20,7 @@ public class MapExample {
         map1.put(-5, "negative five");
         map1.put(null,"empty");
 
-        System.out.println(map1);
+        System.out.println(map1); //{null=empty, 1=one, 4=four, -5=negative five, 5=five, 10=ten}
         //==================================
 
         Map<Integer, String > map2 = new LinkedHashMap<>();
@@ -34,7 +34,8 @@ public class MapExample {
         map2.put(-5, "negative five");
         map2.put(null,"empty");
 
-        System.out.println(map2);
+        System.out.println(map2);//{4=four, 1=one, 10=ten, 5=five, -5=negative five, null=empty}
+
         //==================================
 
         Map<Integer, String > map3 = new TreeMap<>();
@@ -48,7 +49,7 @@ public class MapExample {
         map3.put(-5, "negative five");
        // map3.put(null,"empty");
 
-        System.out.println(map3);
+        System.out.println(map3); //{-5=negative five, 1=one, 4=four, 5=five, 10=ten}
         //===========================
 
         Map<Integer, String > map4 = new Hashtable<>();
@@ -62,7 +63,7 @@ public class MapExample {
         map4.put(-5, "negative five");
        // map4.put(null,"empty");
 
-        System.out.println(map4);
+        System.out.println(map4); //{10=ten, -5=negative five, 5=five, 4=four, 1=one}
 
     }
 

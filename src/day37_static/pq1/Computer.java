@@ -10,6 +10,8 @@ public class Computer {
     String color;
     boolean hasWebCam;
 
+ //   static Color COMPUTER_COLOR = new Color();
+
     // constructor -> to initialize all instance variables one time
     public Computer(double price, String brand, String color, boolean hasWebCam ) {
         this.price = price;

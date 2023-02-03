@@ -28,15 +28,12 @@ public class SortMap {
 
     public static void main(String[] args) {
 
-
         Map<Integer,Integer> map = new TreeMap<>();
-
         map.put(0,4);
         map.put(1,5);
         map.put(2,2);
         map.put(3,4);
         map.put(4,7);
-
         System.out.println("sorted(map) = " + sorted(map));
 
 
